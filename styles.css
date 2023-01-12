@@ -1,3 +1,26 @@
 @media () {
     /* Left sidebar for computers, up for smaller screens */
 }
+
+.friends-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.friends-container img {
+    height: 10vw;
+    height: 10vw;
+}
+
+.friend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.friend span {
+    margin-top: 1vw;
+}
